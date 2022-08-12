@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/contact'
 import { Container, Row, Col } from 'react-bootstrap';
 import './home.css';
 
@@ -40,7 +41,7 @@ const Home = () => {
 
                 <Row>
                     <Col xs={9} md={6} className='box'>
-                        <h1>contact</h1>
+                        <Contact/>
                     </Col>
                     <Col xs={9} md={6} className='box'>
                         <h1>photo</h1>
