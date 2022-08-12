@@ -1,0 +1,8 @@
+.box{
+    border: 1px solid black;
+    height: 300px;
+}
+.home-page{
+    width: 1200px;
+    margin: auto;
+}
