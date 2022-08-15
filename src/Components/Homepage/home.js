@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from '../Contact/contact'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import './home.css';
 
 const About = () => {
@@ -28,6 +29,7 @@ const Home = () => {
 
                 <Row>
                     <Col xs={9} md={4} className='box'>
+                        <Link to="/Projects">Link</Link>
                         <h1>projects</h1>
                     </Col>
                     <Col xs={9} md={4} className='box'>
