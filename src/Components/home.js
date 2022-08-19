@@ -2,7 +2,8 @@ import React from 'react';
 import Contact from './contact';
 import { Container, Row, Col} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-
+import ProjectsImage from '../Assets/projectsImage.jpg';
+import ResumeImage from '../Assets/resumeImage.jpg';
 
 const About = () => {
     return(
@@ -18,7 +19,7 @@ const Home = () => {
             <Container className='home-page'>
                 <Row>
                     <Col xs={9} md={6} className='box first-box'></Col>
-                    <Col xs={9} md={6} className='box second-box'> <Link to="/Projects">Projects</Link></Col>
+                    <Col xs={9} md={6} className='box second-box'> <Link to="/Projects"><img src={ProjectsImage}/></Link></Col>
                 </Row>
 
                 <Row>
@@ -29,7 +30,7 @@ const Home = () => {
 
 
                 <Row>
-                    <Col xs={9} md={6} className='box sixth-box'>resume</Col>
+                    <Col xs={9} md={6} className='box sixth-box'><img src={ResumeImage}/></Col>
                     <Col xs={9} md={6} className='box final-box'></Col>
                 </Row>
             </Container>
