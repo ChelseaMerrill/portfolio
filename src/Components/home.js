@@ -3,6 +3,7 @@ import Contact from './contact';
 import { Container, Row, Col} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
+
 const About = () => {
     return(
         <div>
@@ -16,9 +17,7 @@ const Home = () => {
         <div>
             <Container className='home-page'>
                 <Row>
-                    <Col xs={9} md={6} className='box'>
-                        <h1>hello</h1>
-                    </Col>
+                    <Col xs={9} md={6} className='box first-box'></Col>
                     <Col xs={9} md={6} className='box'>
                         <h1>About Me</h1>
                         {About()}
@@ -44,9 +43,7 @@ const Home = () => {
                     <Col xs={9} md={6} className='box'>
                         <Contact/>
                     </Col>
-                    <Col xs={9} md={6} className='box'>
-                        <h1>photo</h1>
-                    </Col>
+                    <Col xs={9} md={6} className='box final-box'></Col>
                 </Row>
             </Container>
         </div>

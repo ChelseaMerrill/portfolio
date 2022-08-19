@@ -6,3 +6,13 @@
   width: 1200px;
   margin: auto;
 }
+.final-box{
+  background-image: url('./Assets/picture2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.first-box{
+  background-image: url('./Assets/picture1.jpg');
+  background-size: cover;
+  background-position: center;
+}
