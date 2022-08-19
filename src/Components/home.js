@@ -19,7 +19,7 @@ const Home = () => {
             <Container className='home-page'>
                 <Row>
                     <Col xs={9} md={6} className='box first-box'></Col>
-                    <Col xs={9} md={6} className='box second-box'> <Link to="/Projects"><img src={ProjectsImage}/></Link></Col>
+                    <Col xs={9} md={6} className='box second-box'> <Link to="/Projects" className='project-link'><img src={ProjectsImage}/></Link></Col>
                 </Row>
 
                 <Row>

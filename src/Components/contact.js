@@ -1,4 +1,3 @@
-import { Button} from 'react-bootstrap';
 const Contact = () => {
     return(
         <div>
@@ -11,8 +10,8 @@ const Contact = () => {
                 <h5>518-225-6160</h5>
             </div>
             <div className="contact-row-bottom">
-                <Button href='https://github.com/ChelseaMerrill' target='empty'><h4>GitHub</h4></Button>
-                <Button href='https://www.linkedin.com/in/chelsea-merrill/' target='empty'><h4>LinkedIn</h4></Button>
+                <a href="https://github.com/ChelseaMerrill" target='_blank' className='contact-button'><h4>GitHub</h4></a>
+                <a href="https://www.linkedin.com/in/chelsea-merrill/" target='_blank' className='contact-button'><h4>LinkedIn</h4></a>
             </div>
         </div>
     );
