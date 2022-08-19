@@ -1,10 +1,15 @@
+.page{
+  background-color: rgb(236,230,219);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
 .box{
-  border: 1px solid black;
   height: 300px;
 }
 .home-page{
   width: 1200px;
   margin: auto;
+  padding-top: 40px;
 }
 .final-box{
   background-image: url('./Assets/picture2.jpg');
@@ -15,4 +20,41 @@
   background-image: url('./Assets/picture1.jpg');
   background-size: cover;
   background-position: center;
+}
+.middle-box{
+  background-image: url('Assets/logo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.second-box{
+  align-content: center;
+  background-color: rgb(121,95,77);
+}
+.sixth-box{
+  text-align: center;
+  align-content: center;
+  background-color: rgb(175, 187, 110);
+  color: rgb(121,95,77);
+}
+.third-box{
+  background-color: rgb(121,95,77);
+  color: rgb(236,230,219);
+  text-align: center;
+  display: flex;
+  align-items: center ;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px black;
+}
+.fifth-box{
+  background-color: rgb(175, 187, 110);
+  color: rgb(121,95,77);
+  text-align: center;
+  display: flex;
+  align-items: center ;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px black;
 }

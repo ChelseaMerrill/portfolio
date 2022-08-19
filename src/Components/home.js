@@ -14,35 +14,22 @@ const About = () => {
 
 const Home = () => {
     return (
-        <div>
+        <div className='page'>
             <Container className='home-page'>
                 <Row>
                     <Col xs={9} md={6} className='box first-box'></Col>
-                    <Col xs={9} md={6} className='box'>
-                        <h1>About Me</h1>
-                        {About()}
-                    </Col>
+                    <Col xs={9} md={6} className='box second-box'> <Link to="/Projects">Projects</Link></Col>
+                </Row>
+
+                <Row>
+                    <Col xs={9} md={4} className='box third-box'>{About()}</Col>
+                    <Col xs={9} md={4} className='box middle-box'></Col>
+                    <Col xs={9} md={4} className='box fifth-box'><Contact/></Col>
                 </Row>
 
 
                 <Row>
-                    <Col xs={9} md={4} className='box'>
-                        <Link to="/Projects">Link</Link>
-                        <h1>projects</h1>
-                    </Col>
-                    <Col xs={9} md={4} className='box'>
-                        <h1>picture</h1>
-                    </Col>
-                    <Col xs={9} md={4} className='box'>
-                        <h1>resume</h1>
-                    </Col>
-                </Row>
-
-
-                <Row>
-                    <Col xs={9} md={6} className='box'>
-                        <Contact/>
-                    </Col>
+                    <Col xs={9} md={6} className='box sixth-box'>resume</Col>
                     <Col xs={9} md={6} className='box final-box'></Col>
                 </Row>
             </Container>
