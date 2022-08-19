@@ -1,8 +1,7 @@
 import React from 'react';
-import Contact from '../Contact/contact'
+import Contact from './contact';
 import { Container, Row, Col} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import './home.css';
 
 const About = () => {
     return(
@@ -55,3 +54,4 @@ const Home = () => {
 }
 
 export default Home
+

@@ -1,8 +1,9 @@
 import './App.css';
 import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from './Components/Homepage/home';
-import Projects from './Components/Projects/projects'
+import Home from './Components/home';
+import Projects from './Components/projects';
+// import Resume from './Components/resume';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
       </Routes>
      </BrowserRouter>
     </div>
